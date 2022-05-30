@@ -1,0 +1,9 @@
+<div class="face-snap-card snapped" [ngClass]="{snapped : isSnaped}">
+  <h2> {{faceSnap.title | uppercase}}</h2>
+  <div class="description">
+    <p >  {{faceSnap.description}}</p>
+  </div>
+
+  <button routerLink="viewfacesnaps/{{faceSnap.id}}">Voir FaceSnap >></button>
+
+</div>

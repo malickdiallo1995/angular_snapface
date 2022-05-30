@@ -15,6 +15,7 @@
     font-size: 16px;
   }
   button {
+    font-size: medium;
     background-color: transparent;
     box-sizing: border-box;
     padding: 5px 10px;
@@ -22,11 +23,16 @@
     box-shadow: lightgray 3px 3px 7px;
     margin-right: 20px;
     outline: none;
-    font-size: 14px;
+    //font-size: 14px;
     font-weight: 500;
     &:active {
       transform: translate(1px, 1px);
       box-shadow: lightgray 0 0 5px;
+    }
+    &:hover{
+      cursor: pointer;
+      color: #661eec;
+      background-color: aliceblue;
     }
   }
 }
@@ -41,4 +47,12 @@
       box-shadow: lightgreen 0 0 5px;
     }
   }
+}
+
+.description{
+  p{
+    font-size: large;
+    font-family: "monospace", "sans-serif","fantasy";
+  }
+
 }
